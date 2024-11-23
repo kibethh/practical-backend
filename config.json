@@ -1,0 +1,17 @@
+{
+    "http": {
+        "port": 3001
+    },
+    "sql": {
+        "user": "kibethh",
+        "password": "sqlkibethh",
+        "server": "localhost",
+        "database": "ReportingApp-Humphrey",
+        "options": {
+            "trustServerCertificate": true,
+            "requestTimeout": 15000
+        },
+        "queryLogThreshold": 15000,
+        "timeoutLogLevel": "slow"
+    }
+}
